@@ -21,7 +21,7 @@ WORK_PROCESS_PATH="$TASK"'/'"$WORK_PROCESS"
 
 if [ -z "$TASK" ];
 then
-     echo 'error: please, set parameter in format JSCSDK-000'
+     echo 'error: please, set parameter <TASK_ID>'
      exit 1
 fi
 
